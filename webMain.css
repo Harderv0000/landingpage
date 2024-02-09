@@ -116,6 +116,14 @@ body{
     column-gap:50px;
 }
 
+@media (max-width:700px){
+    .curriculum-grid{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+       
+    }
+}
+
 .curriculum-grid-items{
     display: flex;
     align-items:center;
@@ -205,9 +213,10 @@ body{
 
 @media (max-width:700px){
     .footer{
-        grid-auto-flow:column;
-        grid-template-rows:repeat(4,1fr);
+        
+        grid-template-columns:repeat(1,1fr);
         align-items:start;
+        row-gap:30px;
     }
 }
 
