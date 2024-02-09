@@ -11,7 +11,7 @@ body{
 .full-screen-header{
     position:relative;
     height:100vh;
-    background-image:url(./content/header_image.jpg);
+    background-image:url(header_image.jpg);
     background-size:cover;
     display: flex;
     flex-direction:column;
